@@ -1,5 +1,38 @@
-.env
+# Python
 __pycache__/
-*.pyc
-goldway.db
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.envrc
 
+# Локальные секреты и данные
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# Баннеры-картинки (опционально) — раскомментируйте, если не хотите их коммитить
+# assets/*.png

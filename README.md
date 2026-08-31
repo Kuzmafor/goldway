@@ -17,7 +17,7 @@ Telegram-магазин на [aiogram 3](https://docs.aiogram.dev/) для пр�
 
 ```
 bottg/
-├── bot.py              # Точка входа и вся логика бота
+├── main.py             # Точка входа и вся логика бота
 ├── requirements.txt    # Зависимости Python
 ├── .env.example        # Шаблон переменных окружения
 ├── assets/             # Баннеры разделов (PNG)
